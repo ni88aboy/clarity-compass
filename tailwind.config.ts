@@ -57,6 +57,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        ink: {
+          DEFAULT: "hsl(var(--ink))",
+          soft: "hsl(var(--ink-soft))",
+        },
+        paper: "hsl(var(--paper))",
+        leaf: {
+          DEFAULT: "hsl(var(--leaf))",
+          deep: "hsl(var(--leaf-deep))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
