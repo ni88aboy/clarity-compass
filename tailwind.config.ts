@@ -57,11 +57,32 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        ink: {
+          DEFAULT: "hsl(var(--ink))",
+          soft: "hsl(var(--ink-soft))",
+        },
+        paper: "hsl(var(--paper))",
+        leaf: {
+          DEFAULT: "hsl(var(--leaf))",
+          deep: "hsl(var(--leaf-deep))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        sans: ['Karla', 'system-ui', 'sans-serif'],
+      },
+      boxShadow: {
+        soft: 'var(--shadow-soft)',
+        paper: 'var(--shadow-paper)',
+      },
+      backgroundImage: {
+        'gradient-paper': 'var(--gradient-paper)',
+        'gradient-leaf': 'var(--gradient-leaf)',
       },
       keyframes: {
         "accordion-down": {
