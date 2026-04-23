@@ -63,6 +63,18 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        sans: ['Karla', 'system-ui', 'sans-serif'],
+      },
+      boxShadow: {
+        soft: 'var(--shadow-soft)',
+        paper: 'var(--shadow-paper)',
+      },
+      backgroundImage: {
+        'gradient-paper': 'var(--gradient-paper)',
+        'gradient-leaf': 'var(--gradient-leaf)',
+      },
       keyframes: {
         "accordion-down": {
           from: {

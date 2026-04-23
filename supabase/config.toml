@@ -1,0 +1,4 @@
+project_id = "lovable-cloud"
+
+[functions.clarify]
+verify_jwt = false
